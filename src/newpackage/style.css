@@ -1,0 +1,49 @@
+/* BACKGROUND */
+.root {
+    -fx-background-color: black;
+}
+
+/* TEXTFIELDS */
+.text-field, .password-field {
+    -fx-background-color: #111;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #888;
+    -fx-border-color: red;
+    -fx-border-width: 2;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+/* LABELS + RADIOBUTTON TEXT */
+.label, .radio-button {
+    -fx-text-fill: red;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* REMOVE RADIOBUTTON SQUARE */
+.radio-button > .radio {
+    -fx-background-color: transparent;
+    -fx-border-color: red;
+    -fx-border-width: 2;
+}
+
+.radio-button:selected > .radio > .dot {
+    -fx-background-color: red;
+}
+
+/* BUTTONS */
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+    -fx-border-color: red;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20;
+}
+
+.button:hover {
+    -fx-background-color: #440000;
+    -fx-text-fill: white;
+}
